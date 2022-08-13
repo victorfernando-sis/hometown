@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #241E1F
+}
+.hero-section {
+    background-image: url("https://images.unsplash.com/photo-1590993609526-463705d158d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    color: #ffff;
+    text-shadow: 0px 0px 5px gray;
+    padding: 20px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title--hero{
+
+    letter-spacing: 10px;
+    margin-bottom: 20px
+
+    
+}
+.subtitle--hero{
+    margin: 0px auto 0px auto;
+    line-height: 1;
+    word-spacing: px;
+    letter-spacing:6px;
+    word-spacing: 6px;
+    font-weight: 100;
+    text-shadow: 0px 0px 5px #241E1F;
+}
+
+
+.activities-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px ;
+    /* background-color: rgba(255, 234, 199, 0.4); */
+    /* background-image: lineargradient-linear( #DA863A, white); */
+}
+.container--activities{
+    width: 150px;
+    cursor: pointer;
+    /* How do I zoom out the img hovering over this container? */
+}
+.container--activities > img {
+    transition: transform .2s;
+}
+.container--activities > img:hover {
+    transform: scale(1.2)
+    
+}
+
+.container--activities > p{
+    text-align: justify;
+}
+
+img {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    
+}
+
+.guide-section{
+    margin: 20px auto;
+    display: flex;
+    align-content: center; 
+    width: 400px;
+    border: 2px solid #B87039;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 234, 199, 0.4);
+
+}
+
+.img--guide{
+    width: 200px;
+}
